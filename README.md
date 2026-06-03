@@ -1,3 +1,52 @@
+# RappiPlus project
+- This repository contains the final project of the Tripleten course - RappiPlus Project: From Data to Business Decisions
+We work with multiple business datasets:
+
+    **rappiplus_orders_raw.csv** → information on orders, prices, discounts, and revenue
+    **rappiplus_catalog.csv** → product costs, categories, and vendors
+    **rappiplus_marketing_spend.csv** → marketing investment by channel and country
+    **events / users / user_activity (SQL)** → user behavior within the platform
+    **experiment_checkout_ui.csv** → results of an A/B experiment in the checkout
+
+# Telecommunications Company Analysis
+## 📂 Repository Content
+
+- `S12 Estudiante_Proyecto_Final.ipynb`
+  → Main notebook with cleaning, distributions, outliers, visualizations, and conclusions.
+
+## ✪ Stages Performed:
+
+- Data was cleaned and standardized, removing inconsistencies and verifying the absence of duplicates and missing values.
+- A business profitability analysis was conducted: Total revenue, total cost, Marketing investment, and margin over costs and marketing were calculated. The average ticket per order, average number of products per order, and marketing spend per channel were also calculated, and the best-selling product was identified.
+- A conversion funnel was built and a conversion analysis between each step was performed to find at which stage most users are lost. Subsequently, a cohort retention evaluation was carried out.
+- A Chi-square test was used to analyze whether or not there was a difference between the two product variants.
+- An executive dashboard was created in Tableau.
+
+## ▶ How to open the notebook in Google Colab
+
+Click on the following button:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HTskTYfvnnDxVyV9DHO5PXQZklvajdPK?usp=sharing)
+
+Or:
+
+1. Open the `.ipynb` file on GitHub
+2. Click on **Open in Colab**
+
+## 📘 How to reproduce the analysis
+
+1. Open `S12 Estudiante_Proyecto_Final.ipynb`
+2. Run the cells in order (the dataset path may need to be changed because it is relative)
+3. The notebook loads 3 datasets that I included in /data/
+
+## 🧠 Objective of the analysis
+
+- Identify data quality issues
+- Analyze business profitability
+- Analyze the funnel and cohorts
+- Analyze two product variants to see if it is worth changing to the second version
+- Visualizations of the analysis through an executive dashboard in Tableau
+- Generate insights throughout the project
+
 # ProyectoRappiPlus
 - Este repositorio contiene el proyecto final del curso de Tripleten- Proyecto RappiPlus: De datos a decisiones de negocio
 Se trabaja con múltiples datasets del negocio:
